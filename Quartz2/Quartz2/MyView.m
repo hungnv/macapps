@@ -43,7 +43,7 @@
     [path appendBezierPathWithArcWithCenter:endPoint radius:50 startAngle:0 endAngle:360];
     [path moveToPoint:NSMakePoint(300, 200)];
     [path appendBezierPathWithOvalInRect:NSMakeRect(200, 200, 200, 100)];
-    //[path appendBezierPathWithRoundedRect:NSMakeRect(300, 300, 70, 50) xRadius:50 yRadius:30];
+    [path appendBezierPathWithRoundedRect:NSMakeRect(300, 300, 70, 50) xRadius:50 yRadius:30];
       [path stroke];
 //    [path stroke];
 }
