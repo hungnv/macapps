@@ -36,7 +36,7 @@
     [path moveToPoint:startingPoint];
     [path curveToPoint:endPoint controlPoint1:NSMakePoint(20,200) controlPoint2:NSMakePoint(100,30)];
     
-    [[NSColor redColor] set];
+    [[NSColor greenColor] set];
     //make path
     [path stroke];
     [path moveToPoint:NSMakePoint(100, 200)];
